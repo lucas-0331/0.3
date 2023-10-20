@@ -44,7 +44,7 @@ public class App {
         }
 
         @Override public void Imprimir() {
-            System.out.printf("\nMarca: %s\nVelocidade: %d\nModelo: %s\nQuantos Pneus: %d\nTamanho Aro: %d\nModelo Aro: %s\n", this.marca, this.velocidades, this.modelos, this.quantidade_pneu, pneu.aro, pneu.modelo_aro);
+            System.out.printf("\nMarca: %s\nVelocidade: %d\nModelo: %s\nQuantos Pneus: %d\nTamanho Aro: %d\nModelo Aro: %s\nTem escada? %b\n", this.marca, this.velocidades, this.modelos, this.quantidade_pneu, pneu.aro, pneu.modelo_aro, this.escada);
         }
     }
 
@@ -59,7 +59,7 @@ public class App {
         }
 
         @Override public void Imprimir() {
-            System.out.printf("\nCilindrada: %d\nVelocidade: %d\nModelo: %s\nQuantos Pneus: %d\nTamanho Aro: %d\nModelo Aro: %s\n", this.cilindradas, this.velocidades, this.modelos, this.quantidade_pneu, pneu.aro, pneu.modelo_aro);
+            System.out.printf("\nCilindrada: %d\nVelocidade: %d\nModelo: %s\nQuantos Pneus: %d\nTamanho Aro: %d\nModelo Aro: %s\nTipo: %s\n", this.cilindradas, this.velocidades, this.modelos, this.quantidade_pneu, pneu.aro, pneu.modelo_aro, this.tipo_moto);
         }
     }
 
